@@ -68,7 +68,7 @@ header {
         height: 40px;
         border-radius: calc(40px / 2);
         border: 1px solid rgba(#b8b8bd, 0.8);
-        padding: 0 30px 0 15px;
+        padding: 0 20px 0 15px;
         box-shadow: 0 2px 15px rgba(black, 0.1);
         > a,
         > .item {

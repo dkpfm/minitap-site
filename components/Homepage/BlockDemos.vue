@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <h3>Try it out!</h3>
+        <h3 id="demos">Try it out!</h3>
         <p>
             <strong>Play and learn in the wild.</strong><br />Here’s a couple of
             demo projects.

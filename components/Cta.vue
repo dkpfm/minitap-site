@@ -49,6 +49,10 @@ defineProps(["label", "size", "type"]);
         background: rgba(black, 0.1);
         color: black;
     }
+    &.inverted {
+        background: white;
+        color: black;
+    }
     .icon {
         width: 38px;
         height: 38px;

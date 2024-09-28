@@ -55,6 +55,10 @@
         <div class="bg-shade">
             <HomepageBlockStory />
         </div>
+        <div class="bg-black">
+            <HomepageBlockOpenSource />
+            <LayoutFooter />
+        </div>
     </div>
 </template>
 
@@ -118,6 +122,7 @@ useHead({
     align-items: center;
     justify-content: center;
     gap: 50px;
+    padding: 0 0 150px;
     .item {
         > .icon {
             width: 150px;
@@ -144,7 +149,7 @@ useHead({
     width: 100%;
     background: #e5e5e9;
     padding: 150px 0;
-    margin: 150px 0;
+    /* margin: 150px 0; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,8 +158,18 @@ useHead({
 .bg-default {
     width: 100%;
     display: flex;
+    padding: 150px 0;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.bg-black {
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
 }
 </style>
