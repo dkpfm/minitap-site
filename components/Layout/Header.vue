@@ -20,10 +20,10 @@
             </div>
             <NuxtLink to="/#demos">Demos</NuxtLink>
             <NuxtLink to="/#story">Story</NuxtLink>
-            <NuxtLink to="/"
-                >Support
+            <div class="item" to="/">
+                Support
                 <div class="popover left">
-                    <a href="https://x.com/KMkota0">
+                    <a href="https://x.com/KMkota0" target="_blank">
                         <div class="icon"></div>
                         Follow me on X</a
                     >
@@ -31,8 +31,8 @@
                         <div class="icon"></div>
                         Like on Github</NuxtLink
                     >
-                </div></NuxtLink
-            >
+                </div>
+            </div>
         </div>
         <NuxtLink :class="{ cta: true, [size]: true, [type]: true }" :to="'/'">
             <div class="icon">
