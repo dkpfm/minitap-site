@@ -10,8 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@tresjs/core": "^4.2.10",
+    "gsap": "^3.12.5",
+    "matter-js": "^0.20.0",
     "nuxt": "^3.13.0",
     "scss": "^0.2.4",
+    "three": "^0.169.0",
     "underscore": "^1.13.7",
     "vue": "latest",
     "vue-router": "latest"

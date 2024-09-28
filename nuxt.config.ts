@@ -11,6 +11,11 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/png", href: "/icon-512.svg" }],
     },
   },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => tag.startsWith("Tres") && tag !== "TresCanvas",
+    },
+  },
 
   // devtools: { enabled: true },
 });

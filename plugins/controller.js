@@ -1,12 +1,9 @@
-import controllerState from "~/extension/src/plugins/controllerState";
-import controllerClock from "~/extension/src/plugins/controllerClock";
-import controllerShortcuts from "~/extension/src/plugins/controllerShortcuts";
-import controllerOutput from "~/extension/src/plugins/controllerOutput";
+import physics from "~/extension/demo/src/physics";
 
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp
-    .use(controllerState)
-    .use(controllerClock)
-    .use(controllerOutput)
-    .use(controllerShortcuts);
+  nuxtApp.vueApp.use({
+    install(app) {
+      app.provide("physics", physics());
+    },
+  });
 });

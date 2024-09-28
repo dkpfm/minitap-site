@@ -1,4 +1,5 @@
 <template>
+    <Demo />
     <div class="homepage">
         <div class="hero">
             <HomepageDisplayLogo />
@@ -63,6 +64,7 @@
 </template>
 
 <script setup>
+import Demo from "./extension/demo/src/App.vue";
 import Controller from "./extension/src/components/Controller.vue";
 useHead({
     title: "MiniTAP – Web Sequencer",
@@ -81,6 +83,7 @@ useHead({
 
 <style lang="scss">
 .homepage {
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
