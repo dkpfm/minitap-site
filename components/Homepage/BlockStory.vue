@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div id="story" class="wrapper">
         <div class="messages">
             <div class="item big">
                 I coded MiniTAP<br />in <span>26 hours</span>!
@@ -9,10 +9,12 @@
                 So I challenged myself to code a Chrome Extension in 2 days.
             </div>
             <div class="item">
-                It ended up taking me a bit longer than expected, with
-                developemnt of the extension taking around 3 days. Design,
-                documentation and this landing took a couple days more, so I
-                ended up going from idea to launch in one week.
+                It ended up taking longer than expected. Developemnt of the
+                extension took 3 days. Design, documentation and this landing
+                took a couple days more.
+            </div>
+            <div class="item">
+                I ended up going from idea to launch in one week! 🙃
             </div>
             <div class="actions">
                 <Cta label="Follow on X" size="small" />

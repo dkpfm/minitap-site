@@ -178,6 +178,7 @@ header {
     border-radius: calc(40px / 2);
     font-size: 14px;
     gap: 10px;
+    border: 1px solid #222;
 
     &.faded {
         background: rgba(black, 0.1);

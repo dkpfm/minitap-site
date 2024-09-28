@@ -26,8 +26,8 @@ import Controller from "./extension/src/components/Controller.vue";
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    min-height: 75vh;
-    padding: 80px 0 80px;
+    min-height: 100vh;
+    padding: 250px 0 80px;
 
     > h3 {
         font-size: 120px;

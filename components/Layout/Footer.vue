@@ -15,7 +15,7 @@
 <style lang="scss" scoped>
 footer {
     display: flex;
-    min-width: 1200px;
+    min-width: 800px;
     justify-content: space-between;
     border-top: 1px solid rgba(white, 0.2);
     padding: 40px 20px;

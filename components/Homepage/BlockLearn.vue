@@ -1,11 +1,10 @@
 <template>
     <div class="wrapper">
         <div class="video-block">
-            <h3>Learn in 5 min.</h3>
-            <Cta label="Watch video" />
+            <h3>MiniTAP in 30sec.</h3>
+            <Cta label="Watch intro video" />
         </div>
         <nav>
-            <Cta label="Quick intro" size="small" type="normal" />
             <Cta label="Keyboard controls" size="small" type="faded" />
             <Cta label="How to connect" size="small" type="faded" />
         </nav>
