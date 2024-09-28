@@ -49,7 +49,7 @@
         <div class="bg-shade">
             <HomepageBlockLearn />
         </div>
-        <div class="bg-default">
+        <div class="bg-blue">
             <HomepageBlockDemos />
         </div>
         <div class="bg-shade">
@@ -155,13 +155,24 @@ useHead({
     justify-content: center;
     flex-direction: column;
 }
-.bg-default {
+.bg-blue {
     width: 100%;
     display: flex;
-    padding: 150px 0;
+    padding: 150px 0 70px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #237aec;
+    background-image: linear-gradient(45deg, #0a6bea 25%, transparent 25%),
+        linear-gradient(-45deg, #0a6bea 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #0a6bea 75%),
+        linear-gradient(-45deg, transparent 75%, #0a6bea 75%);
+    background-size: 80px 80px;
+    background-position:
+        0 0,
+        0 40px,
+        40px -40px,
+        -40px 0px;
 }
 .bg-black {
     background: black;

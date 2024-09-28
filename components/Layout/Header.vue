@@ -34,7 +34,11 @@
                 </div>
             </div>
         </div>
-        <NuxtLink :class="{ cta: true, [size]: true, [type]: true }" :to="'/'">
+        <NuxtLink
+            v-if="false"
+            :class="{ cta: true, [size]: true, [type]: true }"
+            :to="'/'"
+        >
             <div class="icon">
                 <div class="circ">
                     <slot></slot>

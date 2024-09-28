@@ -5,8 +5,18 @@
             <Cta label="Watch intro video" />
         </div>
         <nav>
-            <Cta label="Keyboard controls" size="small" type="faded" />
-            <Cta label="How to connect" size="small" type="faded" />
+            <Cta
+                to="/learn/keyboard-controls"
+                label="Keyboard controls"
+                size="small"
+                type="faded"
+            />
+            <Cta
+                to="/learn/connection-api"
+                label="How to connect"
+                size="small"
+                type="faded"
+            />
         </nav>
     </div>
 </template>
