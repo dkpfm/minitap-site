@@ -9,11 +9,11 @@
                 Lean
                 <div class="popover">
                     <NuxtLink to="/learn/keyboard-controls">
-                        <div class="icon"></div>
+                        <div class="icon"><IconTinyKeyboard /></div>
                         Keyboard controls</NuxtLink
                     >
                     <NuxtLink to="/learn/connection-api">
-                        <div class="icon"></div>
+                        <div class="icon"><IconTinyConnection /></div>
                         Connection API</NuxtLink
                     >
                 </div>
@@ -24,11 +24,11 @@
                 Support
                 <div class="popover left">
                     <a href="https://x.com/KMkota0" target="_blank">
-                        <div class="icon"></div>
+                        <div class="icon"><IconX /></div>
                         Follow me on X</a
                     >
                     <a href="https://github.com/dkpfm/minitap" target="_blank">
-                        <div class="icon"></div>
+                        <div class="icon"><IconGithub /></div>
                         Like on Github</a
                     >
                 </div>
@@ -149,6 +149,9 @@ header {
                         background: black;
                         border-radius: 8px;
                         margin-right: 8px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
 
                     &:hover {

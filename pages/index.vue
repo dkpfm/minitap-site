@@ -10,41 +10,48 @@
             <Cta label="Install extension" />
             <div class="flex-fill"></div>
             <div class="preview">
+                <div class="arrow"><IconArrowDown /></div>
                 <Controller />
             </div>
         </div>
-        <div class="features">
-            <div class="item">
-                <div class="icon"></div>
-                <h3>8 channels.<br />3 modes.</h3>
-                <p>
-                    Each channel can be set to trigger on the beat (sequencer),
-                    on keystroke, or when audio tressholds are hit.
-                </p>
-            </div>
-            <div class="item">
-                <div class="icon"></div>
-                <h3>Send events to current tab.</h3>
-                <p>
-                    Each channel can be set to trigger on the beat (sequencer),
-                    on keystroke, or when audio tressholds are hit.
-                </p>
-            </div>
-            <div class="item">
-                <div class="icon"></div>
-                <h3>Works with<br />your keyboard.</h3>
-                <p>
-                    Each channel can be set to trigger on the beat (sequencer),
-                    on keystroke, or when audio tressholds are hit.
-                </p>
-            </div>
-            <div class="item">
-                <div class="icon"></div>
-                <h3>Advanced<br />tempo controls.</h3>
-                <p>
-                    Each channel can be set to trigger on the beat (sequencer),
-                    on keystroke, or when audio tressholds are hit.
-                </p>
+        <div class="bg-base">
+            <div class="features">
+                <div class="item">
+                    <div class="icon"></div>
+                    <h3>8 channels.<br />3 modes.</h3>
+                    <p>
+                        Each channel can be set to trigger on the beat
+                        (sequencer), on keystroke, or when audio tressholds are
+                        hit.
+                    </p>
+                </div>
+                <div class="item">
+                    <div class="icon"></div>
+                    <h3>Send events to current tab.</h3>
+                    <p>
+                        Each channel can be set to trigger on the beat
+                        (sequencer), on keystroke, or when audio tressholds are
+                        hit.
+                    </p>
+                </div>
+                <div class="item">
+                    <div class="icon"></div>
+                    <h3>Works with<br />your keyboard.</h3>
+                    <p>
+                        Each channel can be set to trigger on the beat
+                        (sequencer), on keystroke, or when audio tressholds are
+                        hit.
+                    </p>
+                </div>
+                <div class="item">
+                    <div class="icon"></div>
+                    <h3>Advanced<br />tempo controls.</h3>
+                    <p>
+                        Each channel can be set to trigger on the beat
+                        (sequencer), on keystroke, or when audio tressholds are
+                        hit.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="bg-shade">
@@ -82,6 +89,14 @@ useHead({
 </script>
 
 <style lang="scss">
+@keyframes rotateAnimation {
+    from {
+        transform: rotateY(45deg);
+    }
+    to {
+        transform: rotateY(225deg);
+    }
+}
 .homepage {
     z-index: 1;
     display: flex;
@@ -99,7 +114,8 @@ useHead({
     text-align: center;
     gap: 20px;
     padding: 200px 0 100px;
-    margin-bottom: 100px;
+    position: relative;
+    z-index: 2;
 }
 .subtitle {
     font-size: 52px;
@@ -117,6 +133,13 @@ useHead({
 .preview {
     width: 1200px;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3));
+    .arrow {
+        transform: rotateY(45deg);
+        animation: rotateAnimation 1s linear infinite;
+        position: absolute;
+        top: -40px;
+        left: 10px;
+    }
 }
 
 .features {
@@ -125,7 +148,8 @@ useHead({
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 0 0 150px;
+    padding: 150px 0 150px;
+
     .item {
         > .icon {
             width: 150px;
@@ -146,6 +170,25 @@ useHead({
             font-weight: 600;
             letter-spacing: -0.5px;
         }
+    }
+}
+.bg-base {
+    width: 100%;
+    background: #ececf0;
+    /* margin: 150px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        background-image: linear-gradient(0deg, #ececf0, transparent);
+        height: 500px;
+        top: -500px;
+        width: 100%;
     }
 }
 .bg-shade {
