@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="messages">
             <div class="item big">
-                I built MiniTAP<br />in <span>26 hours</span>!
+                I coded MiniTAP<br />in <span>26 hours</span>!
             </div>
             <div class="item">
                 I needed a fun and easy way to control 3D graphics in real time.

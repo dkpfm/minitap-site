@@ -27,9 +27,9 @@
                         <div class="icon"></div>
                         Follow me on X</a
                     >
-                    <NuxtLink to="/">
+                    <a href="https://github.com/dkpfm/minitap" target="_blank">
                         <div class="icon"></div>
-                        Like on Github</NuxtLink
+                        Like on Github</a
                     >
                 </div>
             </div>

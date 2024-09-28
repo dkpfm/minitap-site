@@ -1,5 +1,8 @@
 <template>
-    <NuxtLink :class="{ cta: true, [size]: true, [type]: true }" :to="'/'">
+    <NuxtLink
+        :class="{ cta: true, [size]: true, [type]: true }"
+        :to="to || '/'"
+    >
         <div class="icon">
             <div class="circ">
                 <slot></slot>
@@ -10,7 +13,7 @@
 </template>
 
 <script setup>
-defineProps(["label", "size", "type"]);
+defineProps(["label", "size", "type", "to"]);
 </script>
 
 <style lang="scss" scoped>

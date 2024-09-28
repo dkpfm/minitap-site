@@ -20,7 +20,7 @@ footer {
     border-top: 1px solid rgba(white, 0.2);
     padding: 40px 20px;
     font-size: 14px;
-    letter-spaing: -0.2px;
+    letter-spacing: -0.2px;
 
     .icon {
         position: relative;

@@ -3,7 +3,11 @@
         <h3 id="demos">
             <small>One more thing...</small><br />It's Open Source!
         </h3>
-        <Cta label="View on Github" type="inverted" />
+        <Cta
+            label="View on Github"
+            type="inverted"
+            to="https://github.com/dkpfm/minitap"
+        />
         <div class="flex-fill"></div>
         <div class="preview">
             <Controller />
