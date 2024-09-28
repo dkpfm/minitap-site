@@ -1,6 +1,8 @@
 <template>
     <div class="learn">
-        <h1>Keyboard<br />controls</h1>
+        <h1>Keyboard controls</h1>
+        <img src="/assets/images/keyboard-channels.svg" />
+        <img src="/assets/images/keyboard-modes.svg" />
     </div>
 </template>
 
@@ -34,6 +36,11 @@ useHead({
         margin: 0;
         letter-spacing: -2px;
         line-height: 1em;
+    }
+    > img {
+        max-width: 1000px;
+        margin: 100px 20px;
+        width: calc(100% - 40px);
     }
 }
 </style>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1380px" height="819px" viewBox="0 0 1380 819" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>keyboard-modes</title>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-122" transform="translate(-159, -1459)">
+            <g id="keyboard-modes" transform="translate(161, 1461)">
+                <g id="Group-6" transform="translate(377, 54)">
+                    <rect id="Rectangle-Copy-9" fill="#000000" x="397" y="2" width="137" height="34" rx="17"></rect>
+                    <rect id="Rectangle-Copy-11" fill="#000000" x="855" y="2" width="137" height="34" rx="17"></rect>
+                    <rect id="Rectangle-Copy-12" fill="#000000" x="747" y="2" width="83" height="34" rx="6"></rect>
+                    <text id="TRIGGER-KEYS" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="416" y="24">TRIGGER KEYS</tspan>
+                    </text>
+                    <text id="Sequencer-Mode" font-family="SFProDisplay-Black, SF Pro Display" font-size="32" font-weight="700" fill="#000000">
+                        <tspan x="0" y="30">Sequencer Mode</tspan>
+                    </text>
+                    <text id="TRIGGER-KEYS-Copy-2" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="874" y="24">TRIGGER KEYS</tspan>
+                    </text>
+                    <text id="􀆝-SHIFT" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="757" y="24">􀆝 SHIFT</tspan>
+                    </text>
+                    <text id="While-playing,-toggl" opacity="0.5" font-family="SFProDisplay-Medium, SF Pro Display" font-size="26" font-weight="400" letter-spacing="-0.361111111" fill="#000000">
+                        <tspan x="397" y="78">While playing, toggles the </tspan>
+                        <tspan x="397" y="109">current note in pattern.</tspan>
+                    </text>
+                    <text id="Clears-the-pattern." opacity="0.5" font-family="SFProDisplay-Medium, SF Pro Display" font-size="26" font-weight="400" letter-spacing="-0.361111111" fill="#000000">
+                        <tspan x="747" y="78">Clears the pattern.</tspan>
+                    </text>
+                    <text id="Uses-a-pattern,-visi" opacity="0.5" font-family="SFProDisplay-Medium, SF Pro Display" font-size="26" font-weight="400" letter-spacing="-0.361111111" fill="#000000">
+                        <tspan x="1" y="78">Uses a pattern, visible in the </tspan>
+                        <tspan x="1" y="109">beat grid. Notes are triggered  </tspan>
+                        <tspan x="1" y="140">automatically.</tspan>
+                    </text>
+                    <text id="+" font-family="SFProDisplay-Medium, SF Pro Display" font-size="22" font-weight="400" letter-spacing="-0.305555556" fill="#000000">
+                        <tspan x="838" y="27">+</tspan>
+                    </text>
+                </g>
+                <g id="Group-14" transform="translate(377, 351)">
+                    <rect id="Rectangle-Copy-13" fill="#000000" x="397" y="2" width="137" height="34" rx="17"></rect>
+                    <rect id="Rectangle-Copy-14" fill="#000000" x="855" y="2" width="137" height="34" rx="17"></rect>
+                    <rect id="Rectangle-Copy-15" fill="#000000" x="747" y="2" width="83" height="34" rx="6"></rect>
+                    <text id="TRIGGER-KEYS-Copy-3" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="416" y="24">TRIGGER KEYS</tspan>
+                    </text>
+                    <text id="Tap-Mode" font-family="SFProDisplay-Black, SF Pro Display" font-size="32" font-weight="700" fill="#000000">
+                        <tspan x="0" y="30">Tap Mode</tspan>
+                    </text>
+                    <text id="TRIGGER-KEYS-Copy-4" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="874" y="24">TRIGGER KEYS</tspan>
+                    </text>
+                    <text id="􀆝-SHIFT-Copy" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="757" y="24">􀆝 SHIFT</tspan>
+                    </text>
+                    <text id="Key-down-→-Note-on." opacity="0.5" font-family="SFProDisplay-Medium, SF Pro Display" font-size="26" font-weight="400" letter-spacing="-0.361111111" fill="#000000">
+                        <tspan x="397" y="78">Key down → Note on.</tspan>
+                        <tspan x="397" y="109">Key up → Note off.</tspan>
+                    </text>
+                    <text id="N/A" opacity="0.5" font-family="SFProDisplay-Medium, SF Pro Display" font-size="26" font-weight="400" letter-spacing="-0.361111111" fill="#000000">
+                        <tspan x="747" y="78">N/A</tspan>
+                    </text>
+                    <text id="Perfect-for-freestyl" opacity="0.5" font-family="SFProDisplay-Medium, SF Pro Display" font-size="26" font-weight="400" letter-spacing="-0.361111111" fill="#000000">
+                        <tspan x="1" y="78">Perfect for freestyling on </tspan>
+                        <tspan x="1" y="109">when playing live.</tspan>
+                    </text>
+                    <text id="+-copy" font-family="SFProDisplay-Medium, SF Pro Display" font-size="22" font-weight="400" letter-spacing="-0.305555556" fill="#000000">
+                        <tspan x="838" y="27">+</tspan>
+                    </text>
+                </g>
+                <g id="Group-15" transform="translate(377, 618)">
+                    <rect id="Rectangle-Copy-16" fill="#000000" x="397" y="2" width="137" height="34" rx="17"></rect>
+                    <rect id="Rectangle-Copy-17" fill="#000000" x="855" y="2" width="137" height="34" rx="17"></rect>
+                    <rect id="Rectangle-Copy-18" fill="#000000" x="747" y="2" width="83" height="34" rx="6"></rect>
+                    <text id="TRIGGER-KEYS-Copy-5" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="416" y="24">TRIGGER KEYS</tspan>
+                    </text>
+                    <text id="Random-Mode" font-family="SFProDisplay-Black, SF Pro Display" font-size="32" font-weight="700" fill="#000000">
+                        <tspan x="0" y="30">Random Mode</tspan>
+                    </text>
+                    <text id="TRIGGER-KEYS-Copy-6" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="874" y="24">TRIGGER KEYS</tspan>
+                    </text>
+                    <text id="􀆝-SHIFT-Copy-2" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="757" y="24">􀆝 SHIFT</tspan>
+                    </text>
+                    <text id="Increases-random-amo" opacity="0.5" font-family="SFProDisplay-Medium, SF Pro Display" font-size="26" font-weight="400" letter-spacing="-0.361111111" fill="#000000">
+                        <tspan x="397" y="78">Increases random </tspan>
+                        <tspan x="397" y="109">amount.</tspan>
+                    </text>
+                    <text id="Decreases-random-amo" opacity="0.5" font-family="SFProDisplay-Medium, SF Pro Display" font-size="26" font-weight="400" letter-spacing="-0.361111111" fill="#000000">
+                        <tspan x="747" y="78">Decreases random </tspan>
+                        <tspan x="747" y="109">amount.</tspan>
+                    </text>
+                    <text id="Random-generator.-Tr" opacity="0.5" font-family="SFProDisplay-Medium, SF Pro Display" font-size="26" font-weight="400" letter-spacing="-0.361111111" fill="#000000">
+                        <tspan x="1" y="78">Random generator. Triggers </tspan>
+                        <tspan x="1" y="109">notes automatically at </tspan>
+                        <tspan x="1" y="140">random times.</tspan>
+                    </text>
+                    <text id="+-copy-2" font-family="SFProDisplay-Medium, SF Pro Display" font-size="22" font-weight="400" letter-spacing="-0.305555556" fill="#000000">
+                        <tspan x="838" y="27">+</tspan>
+                    </text>
+                </g>
+                <g id="Group">
+                    <path d="M31.640625,0 L274.359375,0 C291.83401,-3.21003831e-15 306,14.1659903 306,31.640625 L306,221.359375 C306,238.83401 291.83401,253 274.359375,253 L31.640625,253 C14.1659903,253 1.07001277e-15,238.83401 0,221.359375 L-7.10542736e-15,31.640625 C-9.2454529e-15,14.1659903 14.1659903,2.14002554e-15 31.640625,0 Z" id="Rectangle-Copy" stroke="#4C4C4E" stroke-width="2.109375" fill="#141415"></path>
+                    <g id="Group-60" transform="translate(27, 180)" stroke-width="3.875">
+                        <rect id="Rectangle" stroke="#27C94C" fill="#27C94C" x="0" y="0" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-68" stroke="#2E3134" x="32.595092" y="0" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-69" stroke="#2E3134" x="65.190184" y="0" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-70" stroke="#2E3134" x="97.7852761" y="0" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-71" stroke="#2E3134" x="130.380368" y="0" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-76" stroke="#2E3134" x="162.97546" y="0" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-79" stroke="#2E3134" x="195.570552" y="0" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-80" stroke="#2E3134" x="228.165644" y="0" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle" stroke="#27C94C" fill="#27C94C" x="0" y="26.4444444" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-68" stroke="#2E3134" x="32.595092" y="26.4444444" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-69" stroke="#2E3134" x="65.190184" y="26.4444444" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-70" stroke="#2E3134" x="97.7852761" y="26.4444444" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-71" stroke="#2E3134" x="130.380368" y="26.4444444" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-76" stroke="#2E3134" x="162.97546" y="26.4444444" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-79" stroke="#2E3134" x="195.570552" y="26.4444444" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                        <rect id="Rectangle-Copy-80" stroke="#2E3134" x="228.165644" y="26.4444444" width="24.8343558" height="15.5555556" rx="7.75"></rect>
+                    </g>
+                    <text id="Sequencer" font-family="SFProDisplay-Bold, SF Pro Display" font-size="46.40625" font-weight="bold" letter-spacing="-0.580078177" fill="#ECECF0">
+                        <tspan x="28.512273" y="124.103086">Sequencer</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#C3F3CE" opacity="0.100000001" x="25.3241379" y="25.3" width="71.7517241" height="37.95" rx="18.975"></rect>
+                    <text id="A" font-family="SFProDisplay-Bold, SF Pro Display" font-size="16.875" font-weight="bold" fill="#ECECF0">
+                        <tspan x="70.1304338" y="48.6742284">A</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#27C94C" x="33.7655172" y="31.625" width="25.3241379" height="25.3" rx="12.65"></rect>
+                    <text id="1" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14.765625" font-weight="bold" letter-spacing="-0.184570309" fill="#FFFFFF">
+                        <tspan x="42.9762656" y="48.7295074">1</tspan>
+                    </text>
+                    <text id="􀠕" font-family="SFProDisplay-Regular, SF Pro Display" font-size="29.53125" font-weight="normal" fill="#27C94C">
+                        <tspan x="154.063218" y="55.3996914">􀠕</tspan>
+                    </text>
+                    <text id="􀬂" opacity="0.600423177" font-family="SFProDisplay-Regular, SF Pro Display" font-size="29.53125" font-weight="normal" fill="#D0D0D3">
+                        <tspan x="200.490673" y="55.3996914">􀬂</tspan>
+                    </text>
+                    <text id="􀐩" opacity="0.600423177" font-family="SFProDisplay-Regular, SF Pro Display" font-size="29.53125" font-weight="normal" fill="#D0D0D3">
+                        <tspan x="244.810059" y="55.3996914">􀐩</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(0, 282)">
+                    <path d="M31.640625,0 L274.359375,0 C291.83401,-3.21003831e-15 306,14.1659903 306,31.640625 L306,221.359375 C306,238.83401 291.83401,253 274.359375,253 L31.640625,253 C14.1659903,253 1.07001277e-15,238.83401 0,221.359375 L-7.10542736e-15,31.640625 C-9.2454529e-15,14.1659903 14.1659903,2.14002554e-15 31.640625,0 Z" id="Rectangle-Copy-8" stroke="#4C4C4E" stroke-width="2.109375" fill="#141415"></path>
+                    <g id="Group-7" transform="translate(201, 120)">
+                        <rect id="Rectangle" stroke="#323232" stroke-width="3" x="1.5" y="27.5" width="81" height="81" rx="24"></rect>
+                        <rect id="Rectangle" fill="#323232" x="7.38461538" y="32" width="70" height="60" rx="18"></rect>
+                        <polygon id="Combined-Shape" fill="#3B84E3" points="14.7300219 114.606967 25.1879038 65.2911896 -0.0649881144 62.949198 26.1794567 49.2140758 2.44777783 19.3377689 36.1358361 36.4094184 43.9489275 -0.890938257 52.2354365 36.5137341 85.7098811 19.8772571 62.3549305 49.4484711 96.2837887 66.0034802 58.8741326 65.4735086 63.0835607 91.2432958 47.3259207 76.3006763"></polygon>
+                    </g>
+                    <text id="Tap" font-family="SFProDisplay-Bold, SF Pro Display" font-size="46.40625" font-weight="bold" letter-spacing="-0.580078177" fill="#ECECF0">
+                        <tspan x="32.7370203" y="124.103086">Tap</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-19" fill="#D1E5FF" opacity="0.100000001" x="31.6551724" y="25.3" width="71.7517241" height="37.95" rx="18.975"></rect>
+                    <text id="J" font-family="SFProDisplay-Bold, SF Pro Display" font-size="16.875" font-weight="bold" fill="#ECECF0">
+                        <tspan x="77.5944334" y="48.6742284">J</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-23" fill="#3B84E3" x="40.0965517" y="31.625" width="25.3241379" height="25.3" rx="12.65"></rect>
+                    <text id="6" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14.765625" font-weight="bold" letter-spacing="-0.184570309" fill="#FFFFFF">
+                        <tspan x="48.0347743" y="48.7295074">6</tspan>
+                    </text>
+                    <text id="􀠕" opacity="0.600423177" font-family="SFProDisplay-Regular, SF Pro Display" font-size="29.53125" font-weight="normal" fill="#D0D0D3">
+                        <tspan x="147.732184" y="55.3996914">􀠕</tspan>
+                    </text>
+                    <text id="􀬂" font-family="SFProDisplay-Regular, SF Pro Display" font-size="29.53125" font-weight="normal" fill="#3B84E3">
+                        <tspan x="194.159638" y="55.3996914">􀬂</tspan>
+                    </text>
+                    <text id="􀐩" opacity="0.600423177" font-family="SFProDisplay-Regular, SF Pro Display" font-size="29.53125" font-weight="normal" fill="#D0D0D3">
+                        <tspan x="238.479024" y="55.3996914">􀐩</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(0, 564)">
+                    <path d="M31.640625,0 L274.359375,0 C291.83401,-3.21003831e-15 306,14.1659903 306,31.640625 L306,221.359375 C306,238.83401 291.83401,253 274.359375,253 L31.640625,253 C14.1659903,253 1.07001277e-15,238.83401 0,221.359375 L-7.10542736e-15,31.640625 C-9.2454529e-15,14.1659903 14.1659903,2.14002554e-15 31.640625,0 Z" id="Rectangle-Copy-10" fill="#141415"></path>
+                    <g id="Group-45" transform="translate(21.1034, 150.3605)">
+                        <text id="7" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="16.875" font-weight="600" fill="#ECECF0">
+                            <tspan x="25.2740653" y="16">7</tspan>
+                        </text>
+                        <path d="M4.21666667,24.0644585 L112.962644,24.0644585 C115.291444,24.0644585 117.17931,25.9523245 117.17931,28.2811252 C117.17931,30.6099259 115.291444,32.4977918 112.962644,32.4977918 L4.21666667,32.4977918 C1.88786597,32.4977918 1.42597916e-16,30.6099259 0,28.2811252 C-2.85195832e-16,25.9523245 1.88786597,24.0644585 4.21666667,24.0644585 Z" id="Rectangle" fill="#323232"></path>
+                        <rect id="Rectangle" fill="#646468" x="0" y="24.0644585" width="32" height="8.43333333" rx="4.21666667"></rect>
+                        <circle id="Oval" stroke="#141415" stroke-width="1.5" fill="#FFFFFF" cx="30" cy="28.0644585" r="4.75"></circle>
+                    </g>
+                    <g id="Group-43" transform="translate(154.0552, 97.0514)">
+                        <g id="Group-40" fill="#323232" fill-rule="nonzero">
+                            <path d="M69.6413793,0 C108.103251,0 139.282759,31.1497885 139.282759,69.575 C139.282759,108.000211 108.103251,139.15 69.6413793,139.15 C31.1795076,139.15 0,108.000211 0,69.575 C0,31.1497885 31.1795076,0 69.6413793,0 Z M12.666534,70.8254747 L3.20124424,70.826052 C3.86883011,106.914016 33.3594493,135.963359 69.6413793,135.963359 L69.641,127.55 L69.2179838,127.54647 C38.1372053,127.043023 13.0504019,101.905648 12.666534,70.8254747 Z M136.081514,70.826052 L127.67,70.825 L127.668158,71.0521586 C127.170994,101.68657 102.673821,126.492379 72.1423773,127.520974 L72.1430903,135.917182 C107.269603,134.618327 135.429341,106.08088 136.081514,70.826052 Z M23.2192689,70.8258766 L13.722,70.825 L13.7248043,71.034726 C14.2204734,101.577013 39.0179258,126.217409 69.641222,126.497587 L69.641,117.008 L69.3924759,117.006215 C44.0589863,116.595863 23.6025521,96.1418796 23.2192689,70.8258766 Z M126.616136,70.8258956 L117.117,70.825 L117.117847,70.8778328 C116.713876,95.7698489 96.9033272,115.948816 72.1429159,116.971798 L72.1425841,126.466178 C102.166213,125.435588 126.236487,100.982039 126.616136,70.8258956 Z M33.7725795,70.8257143 L24.275,70.825 L24.2751148,70.8604003 C24.6776053,95.6611803 44.7875375,115.675844 69.6416262,115.955369 L69.641,106.466 L69.5669679,106.465961 C49.9806263,106.148701 34.1545216,90.3776891 33.7725795,70.8257143 Z M116.06337,70.8254504 L106.565352,70.8257143 C106.192369,89.9190366 91.0913073,105.406704 72.1429807,106.418273 L72.142442,115.916712 C96.3375431,114.894215 115.686691,95.1594439 116.06337,70.8254504 Z M44.3271913,70.8256571 L34.8279579,70.8254537 C35.2099787,89.8200731 50.6034044,105.134536 69.641371,105.412813 L69.6413474,95.9238946 C55.8484522,95.6480255 44.7059082,84.5800321 44.3271913,70.8256571 Z M105.509973,70.8254537 L96.0107397,70.8256571 C95.6453508,84.0959818 85.2604148,94.8656785 72.1426004,95.8550239 L72.1427479,105.362542 C90.5082804,104.352696 105.137674,89.3366909 105.509973,70.8254537 Z M56.9988629,70.8257413 L45.3827963,70.8259401 C45.7611206,83.9980188 56.4314761,94.5941616 69.6416137,94.8695088 L69.6410471,83.2688046 C62.8420563,83.0014337 57.3654508,77.5924051 56.9988629,70.8257413 Z M94.9551348,70.8259401 L83.3390681,70.8257413 C82.9988642,77.1053978 78.257725,82.2158088 72.1429243,83.1325861 L72.1427338,94.7976665 C84.6771814,93.8114971 94.5907204,83.5137175 94.9551348,70.8259401 Z M69.641,70.825 L58.0557395,70.8256462 C58.4201254,77.0099807 63.4249387,81.9479393 69.6411258,82.2137368 L69.641,70.825 Z M82.2821916,70.8256462 L72.142,70.825 L72.1426449,82.0654498 C77.6732335,81.1616552 81.9465309,76.5224571 82.2821916,70.8256462 Z M69.6413793,3.18664122 C33.3594493,3.18664122 3.86883011,32.2359844 3.20124424,68.323948 L12.6890747,68.3243658 C13.6240335,37.5915145 38.7182548,12.9299331 69.6415224,12.6523663 L69.6413793,3.18664122 Z M69.641,13.708 L70.1689655,13.7041667 C39.5868971,13.7041667 14.6846599,37.9992356 13.7447553,68.3242982 L23.2468963,68.3241211 C24.1759899,43.4144358 44.5460989,23.4706212 69.6413061,23.1945676 L69.641,13.708 Z M69.641,24.249 L70.1689655,24.2458333 C45.4150871,24.2458333 25.2379119,43.8223517 24.3028381,68.3239688 L33.8082194,68.3249046 C34.7274808,49.2382093 50.3741994,34.0102811 69.6418405,33.7370685 L69.641,24.249 Z M69.641,34.792 L70.1689655,34.7875 C51.2434865,34.7875 35.7918046,49.6464171 34.8647179,68.3239866 L44.3774937,68.324788 C45.2796826,55.0630444 56.2024972,44.54906 69.6413474,44.280272 L69.641,34.792 Z M45.4352988,68.3240725 L57.0982783,68.3246534 C57.9440251,62.058091 63.1989334,57.1886987 69.6410471,56.9353621 L69.6416137,45.3346579 C56.7857844,45.60262 46.3353256,55.6451753 45.4352988,68.3240725 Z M58.163996,68.3245688 L69.641,68.324 L69.6411258,57.9904299 C63.7824271,58.2409416 58.9997781,62.6416815 58.163996,68.3245688 Z M72.1426449,58.1387169 L72.142,68.324 L82.173935,68.3245688 C81.4080596,63.1170108 77.3279543,58.9860868 72.1426449,58.1387169 Z M72.1427338,45.4065002 L72.1429243,57.0715806 C77.9118691,57.9365045 82.4581477,62.5340903 83.2396527,68.3246534 L94.9026322,68.3240725 C94.036609,56.1241913 84.3281633,46.36521 72.1427338,45.4065002 Z M72.1427479,34.8416248 L72.1426004,44.3491427 C84.9114161,45.3121667 95.0908352,55.5420533 95.9604373,68.324788 L105.473213,68.3239866 C104.578572,50.3000811 90.158188,35.8322202 72.1427479,34.8416248 Z M72.142442,24.2874542 L72.1429807,33.7858938 C90.7415499,34.7787907 105.633573,49.7183045 106.529712,68.3249046 L116.035093,68.3239688 C115.124995,44.4767976 95.9869932,25.295137 72.142442,24.2874542 Z M72.1425841,13.7379891 L72.1429159,23.2323683 C96.570162,24.2415858 116.179856,43.8947475 117.091035,68.3241211 L126.593176,68.3242982 C125.673573,38.6542685 101.815649,14.7565456 72.1425841,13.7379891 Z M72.1430903,3.2328181 L72.1423773,12.6831931 C102.39839,13.7025085 126.728514,38.0719752 127.648856,68.3243658 L136.081514,68.323948 C135.429341,33.0691201 107.269603,4.53167328 72.1430903,3.2328181 Z" id="Combined-Shape"></path>
+                        </g>
+                        <g id="Group-41" transform="translate(21.1034, 10.5417)" fill="#FF4B69">
+                            <ellipse id="Oval" cx="64.3655172" cy="41.1125" rx="3.16551724" ry="3.1625"></ellipse>
+                            <ellipse id="Oval-Copy-10" cx="64.3655172" cy="85.3875" rx="3.16551724" ry="3.1625"></ellipse>
+                            <ellipse id="Oval-Copy-11" cx="41.1517241" cy="102.254167" rx="3.16551724" ry="3.1625"></ellipse>
+                            <ellipse id="Oval-Copy-12" cx="5.27586207" cy="98.0375" rx="3.16551724" ry="3.1625"></ellipse>
+                            <ellipse id="Oval-Copy-13" cx="26.3793103" cy="45.3291667" rx="3.16551724" ry="3.1625"></ellipse>
+                            <ellipse id="Oval-Copy-14" cx="34.8206897" cy="3.1625" rx="3.16551724" ry="3.1625"></ellipse>
+                            <ellipse id="Oval-Copy-15" cx="60.1448276" cy="32.6791667" rx="3.16551724" ry="3.1625"></ellipse>
+                            <ellipse id="Oval-Copy-16" cx="91.8" cy="39.0041667" rx="3.16551724" ry="3.1625"></ellipse>
+                            <ellipse id="Oval-Copy-17" cx="98.1310345" cy="89.6041667" rx="3.16551724" ry="3.1625"></ellipse>
+                            <ellipse id="Oval-Copy-18" cx="3.16551724" cy="74.8458333" rx="3.16551724" ry="3.1625"></ellipse>
+                        </g>
+                    </g>
+                    <rect id="Rectangle-Copy-21" fill="#202021" x="21.1034483" y="18.975" width="71.7517241" height="37.95" rx="18.975"></rect>
+                    <text id="L" font-family="SFProDisplay-Bold, SF Pro Display" font-size="16.875" font-weight="bold" fill="#ECECF0">
+                        <tspan x="67.1704253" y="42.3492284">L</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-25" fill="#FF4B69" x="29.5448276" y="25.3" width="25.3241379" height="25.3" rx="12.65"></rect>
+                    <text id="8" font-family="SFProDisplay-Bold, SF Pro Display" font-size="14.765625" font-weight="bold" letter-spacing="-0.184570309" fill="#FFFFFF">
+                        <tspan x="37.5082843" y="42.4045074">8</tspan>
+                    </text>
+                    <text id="􀠕" font-family="SFProDisplay-Regular, SF Pro Display" font-size="29.53125" font-weight="normal" fill="#7F7F7F">
+                        <tspan x="145.621839" y="55.3996914">􀠕</tspan>
+                    </text>
+                    <text id="􀬂" font-family="SFProDisplay-Regular, SF Pro Display" font-size="29.53125" font-weight="normal" fill="#7F7F7F">
+                        <tspan x="192.049293" y="55.3996914">􀬂</tspan>
+                    </text>
+                    <text id="􀐩" font-family="SFProDisplay-Regular, SF Pro Display" font-size="29.53125" font-weight="normal" fill="#FF4B69">
+                        <tspan x="236.36868" y="55.3996914">􀐩</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-2" transform="translate(247, 709) rotate(45) translate(-247, -709)translate(245, 676)" fill="#E1E1E7">
+                    <path d="M2,0 C3.1045695,-2.02906125e-16 4,0.8954305 4,2 L4,64 C4,65.1045695 3.1045695,66 2,66 C0.8954305,66 6.76353751e-17,65.1045695 0,64 L0,2 C-1.3527075e-16,0.8954305 0.8954305,1.3527075e-16 2,0 Z" id="Rectangle"></path>
+                </g>
+                <text id="Random" font-family="SFProDisplay-Bold, SF Pro Display" font-size="46.40625" font-weight="bold" letter-spacing="-0.580078177" fill="#ECECF0">
+                    <tspan x="22.1861222" y="685.994753">Random</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

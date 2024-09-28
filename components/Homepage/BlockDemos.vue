@@ -33,7 +33,6 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
     > h3 {
         font-size: 120px;
         font-weight: 700;
