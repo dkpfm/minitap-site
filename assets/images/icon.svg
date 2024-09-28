@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="32px" viewBox="0 0 28 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="390" height="40" rx="20"></rect>
+        <filter x="-20.1%" y="-183.8%" width="140.3%" height="492.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.596807065   0 0 0 0 0.596807065   0 0 0 0 0.596807065  0 0 0 0.0729621941 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-120" transform="translate(-668, -41)">
+            <rect fill="#ECECF0" x="0" y="0" width="1700" height="5841"></rect>
+            <g id="Group-49" transform="translate(-142.5128, -214.5428)" fill="#000000" opacity="0.05">
+                <g id="Group-48">
+                    <rect id="Rectangle-Copy-51" transform="translate(731.0128, 327.0428) rotate(57) translate(-731.0128, -327.0428)" x="603.512834" y="244.54283" width="255" height="165" rx="82.5"></rect>
+                    <rect id="Rectangle-Copy-53" transform="translate(836.0128, 130.0428) rotate(-26) translate(-836.0128, -130.0428)" x="708.512834" y="47.54283" width="255" height="165" rx="82.5"></rect>
+                </g>
+                <g id="Group-48-Copy" transform="translate(814.5128, 7)">
+                    <circle id="Oval-Copy-28" cx="81" cy="273.54283" r="81"></circle>
+                </g>
+            </g>
+            <g id="Group-34" transform="translate(655, 38)">
+                <g id="Rectangle-Copy-31" opacity="0.901971726">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#B8B8BD" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" x="-0.5" y="-0.5" width="391" height="41" rx="20.5"></rect>
+                </g>
+                <g id="Combined-Shape-2" transform="translate(13, 3)" fill="#000000">
+                    <path d="M15.159,6.65586357 L15.5093611,7.48244348 L12.1821869,8.26369048 L8.00923372,9.24244036 L12.0052482,10.6975444 L14.6188094,11.6483558 L11.4197341,17.8940932 L9.14180443,22.341194 L13.1783393,19.5167833 L19.0313741,15.4199758 L20.2223464,17.3942254 L22.0902042,20.4896083 L22.4881299,16.8269525 L22.7972833,13.9766726 L23.596,14.1968636 L23.5964548,19.5 C23.5964548,23.6421356 20.2385904,27 16.0964548,27 L11.5,27 C7.35786438,27 4,23.6421356 4,19.5 L4,14.1559279 C4,10.0137923 7.35786438,6.65592791 11.5,6.65592791 L15.159,6.65586357 Z M22.2158515,1 L21.9384315,7.40731029 L28,6.16756331 L23.0016847,9.93728557 L27.7146645,14.0842417 L21.7592872,12.3776982 L21.3285353,16.7270169 L19.4502796,13.6280861 L12.6012376,18.4098749 L16.3840283,10.8886945 L12.4488917,9.41586602 L17.2308738,8.33200973 L14.7178007,2.47283235 L19.3701791,6.69289533 L22.2158515,1 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
