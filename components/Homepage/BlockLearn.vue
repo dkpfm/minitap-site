@@ -27,7 +27,9 @@
 <style lang="scss" scoped>
 .video-block {
     width: 1100px;
-    height: 660px;
+    /* height: 660px; */
+    max-width: 90vw;
+    aspect-ratio: 1100/660;
     border-radius: 40px;
     background: white;
     display: flex;
@@ -36,8 +38,16 @@
     flex-direction: column;
     position: relative;
     overflow: hidden;
+    margin: 0 auto;
+
+    @media (max-width: $mq-size) {
+        height: auto;
+        border-radius: 20px;
+    }
     img {
         position: absolute;
+        max-width: 100%;
+        max-height: 100%;
     }
     .video-block-title {
         position: relative;
@@ -47,11 +57,19 @@
         flex-direction: column;
         padding-bottom: 100px;
 
+        @media (max-width: $mq-size) {
+            padding-bottom: 40px;
+        }
+
         > h3 {
             font-size: 80px;
             font-weight: 700;
             margin: 0;
             letter-spacing: -1.5px;
+
+            @media (max-width: $mq-size) {
+                display: none;
+            }
         }
     }
 }
@@ -61,5 +79,9 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    @media (max-width: $mq-size) {
+        padding-top: 30px;
+        flex-direction: column;
+    }
 }
 </style>

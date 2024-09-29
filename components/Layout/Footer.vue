@@ -17,7 +17,7 @@ footer {
     display: flex;
     min-width: 800px;
     justify-content: space-between;
-    border-top: 1px solid rgba(white, 0.2);
+    border-top: 1.5px solid rgba(white, 0.5);
     padding: 40px 20px;
     font-size: 14px;
     letter-spacing: -0.2px;
@@ -30,13 +30,13 @@ footer {
     > div {
         display: flex;
         gap: 15px;
-        color: rgba(white, 0.5);
+        color: rgba(white, 0.8);
         strong {
             color: rgba(white, 1);
         }
     }
     a {
-        color: rgba(white, 0.5);
+        color: rgba(white, 0.8);
         text-decoration: none;
         &:hover {
             color: rgba(white, 1);

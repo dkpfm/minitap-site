@@ -31,11 +31,16 @@ defineProps(["label", "size", "type", "to"]);
     font-size: 18px;
     font-weight: 600;
     width: fit-content;
+    white-space: nowrap;
     &.small {
         height: 44px;
         border-radius: calc(44px / 2);
         font-size: 16px;
         gap: 10px;
+
+        @media (max-width: $mq-size) {
+            padding: 0 20px 0 10px;
+        }
 
         > .icon {
             width: 28px;
@@ -64,6 +69,7 @@ defineProps(["label", "size", "type", "to"]);
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-shrink: 0;
         .circ {
             width: 28px;
             height: 28px;

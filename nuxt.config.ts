@@ -9,11 +9,23 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [{ rel: "icon", type: "image/png", href: "/icon-512.svg" }],
+      meta: [
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+      ],
     },
   },
   vue: {
     compilerOptions: {
       isCustomElement: (tag) => tag.startsWith("Tres") && tag !== "TresCanvas",
+    },
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "@/assets/css/variables.scss";',
+        },
+      },
     },
   },
 

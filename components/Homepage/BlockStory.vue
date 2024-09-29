@@ -32,19 +32,33 @@
     display: flex;
     align-items: start;
     justify-content: space-between;
-    width: 860px;
-    background: #ececf0;
+    max-width: 860px;
+    width: calc(100vw - 40px);
+    background: #fff;
+    margin: 100px 20px;
     /* box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.05); */
     border-radius: 60px;
     padding: 50px;
+
+    @media (max-width: $mq-size) {
+        flex-direction: column;
+        padding: 0px;
+        border-radius: 40px;
+        background: transparent;
+    }
 
     .messages {
         display: flex;
         align-items: space-between;
         justify-content: center;
         flex-direction: column;
-        width: 420px;
+        max-width: 420px;
         gap: 10px;
+
+        @media (max-width: $mq-size) {
+            gap: 5px;
+            align-items: center;
+        }
 
         > .item {
             background: #0a6bea;
@@ -55,6 +69,13 @@
             line-height: 1.2em;
             text-wrap: pretty;
             font-weight: 500;
+
+            @media (max-width: $mq-size) {
+                border-radius: 30px;
+                font-size: 18px;
+                padding: 20px;
+                width: 90%;
+            }
 
             &.big {
                 font-size: 60px;
@@ -67,6 +88,9 @@
                     white-space: nowrap;
                     margin: 0 -5px;
                 }
+                @media (max-width: $mq-size) {
+                    font-size: 40px;
+                }
             }
         }
         .actions {
@@ -75,11 +99,24 @@
             gap: 5px;
             align-items: center;
             justify-content: center;
+
+            @media (max-width: $mq-size) {
+                padding: 20px 0;
+            }
         }
     }
     .avatar {
+        /* width: fit-content; */
+        display: flex;
+        @media (max-width: $mq-size) {
+            margin: 20px auto;
+        }
         img {
             zoom: 0.5;
+            transform: translateX(-6%);
+            @media (max-width: $mq-size) {
+                zoom: 0.25;
+            }
         }
     }
 }

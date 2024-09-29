@@ -2,7 +2,9 @@
     <Demo />
     <div class="homepage">
         <div class="hero">
-            <HomepageDisplayLogo />
+            <div class="logo">
+                <HomepageDisplayLogo />
+            </div>
             <p class="subtitle">
                 <strong>A fun sequencer for the web</strong><br />that runs as a
                 browser extension.
@@ -14,7 +16,7 @@
                 <Controller />
             </div>
         </div>
-        <div class="bg-base">
+        <div class="bg-features">
             <div class="features">
                 <div class="item">
                     <div class="icon"></div>
@@ -57,13 +59,13 @@
         <div class="bg-shade">
             <HomepageBlockLearn />
         </div>
-        <div class="bg-blue">
+        <!-- <div class="bg-blue">
             <HomepageBlockDemos />
-        </div>
-        <div class="bg-shade">
+        </div> -->
+        <div class="bg-base">
             <HomepageBlockStory />
         </div>
-        <div class="bg-black">
+        <div class="bg-blue">
             <HomepageBlockOpenSource />
             <LayoutFooter />
         </div>
@@ -116,6 +118,23 @@ useHead({
     padding: 200px 0 100px;
     position: relative;
     z-index: 2;
+
+    @media (max-width: $mq-size) {
+        padding: 150px 0 50px;
+        height: fit-content;
+        min-height: none;
+        gap: 10px;
+        min-height: 0vh;
+    }
+
+    .logo {
+        svg {
+            max-width: 80vw;
+            max-height: 100%;
+            min-height: 0%;
+            height: auto;
+        }
+    }
 }
 .subtitle {
     font-size: 52px;
@@ -125,14 +144,28 @@ useHead({
     letter-spacing: -1px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;
+    max-width: 100%;
+
     > strong {
         font-weight: 800;
         color: black;
+    }
+
+    @media (max-width: $mq-size) {
+        font-size: 20px;
+        line-height: 1;
+        letter-spacing: -1px;
+        padding: 0;
     }
 }
 .preview {
     width: 1200px;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3));
+
+    @media (max-width: $mq-size) {
+        padding-top: 60px;
+    }
+
     .arrow {
         position: absolute;
         top: -40px;
@@ -149,31 +182,56 @@ useHead({
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 0px 0 150px;
+    padding: 0px 40px 150px;
+
+    @media (max-width: $mq-size) {
+        flex-wrap: wrap;
+        padding: 10px 20px 100px;
+    }
 
     .item {
+        @media (max-width: $mq-size) {
+            width: calc(50% - 30px);
+        }
         > .icon {
             width: 150px;
             height: 150px;
             border-radius: 50px;
             background-image: linear-gradient(180deg, #3c3c42 0%, #000000 100%);
+
+            @media (max-width: $mq-size) {
+                width: 100px;
+                height: 100px;
+                border-radius: 40px;
+            }
         }
         > h3 {
             font-size: 32px;
             letter-spacing: -1px;
             line-height: 1;
             margin: 1.5em 0 1em;
+
+            @media (max-width: $mq-size) {
+                font-size: 18px;
+                letter-spacing: -1px;
+                margin: 1em 0 0.5em;
+            }
         }
         > p {
             font-size: 16px;
-            line-height: 20px;
+            line-height: 1.2em;
             opacity: 0.7;
             font-weight: 600;
             letter-spacing: -0.5px;
+            @media (max-width: $mq-size) {
+                font-size: 14px;
+                letter-spacing: -0.25px;
+            }
         }
     }
 }
-.bg-base {
+.bg-base,
+.bg-features {
     width: 100%;
     background: #ececf0;
     /* margin: 150px 0; */
@@ -182,7 +240,8 @@ useHead({
     justify-content: center;
     flex-direction: column;
     position: relative;
-
+}
+.bg-features {
     &:before {
         content: "";
         position: absolute;
@@ -201,11 +260,14 @@ useHead({
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    @media (max-width: $mq-size) {
+        padding: 100px 0;
+    }
 }
 .bg-blue {
     width: 100%;
     display: flex;
-    padding: 150px 0 70px;
+    /* padding: 150px 0 70px; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -220,6 +282,9 @@ useHead({
         0 40px,
         40px -40px,
         -40px 0px;
+    @media (max-width: $mq-size) {
+        padding: 100px 0;
+    }
 }
 .bg-black {
     background: black;

@@ -26,8 +26,8 @@ import Controller from "./extension/src/components/Controller.vue";
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    min-height: 100vh;
-    padding: 250px 0 80px;
+    /* min-height: 100vh; */
+    padding: 100px 0 80px;
 
     > h3 {
         font-size: 120px;
@@ -54,6 +54,7 @@ import Controller from "./extension/src/components/Controller.vue";
     }
 }
 .preview {
+    margin-top: 100px;
     width: 1200px;
     /* filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3)); */
 }

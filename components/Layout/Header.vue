@@ -18,7 +18,7 @@
                     >
                 </div>
             </div>
-            <NuxtLink to="/#demos">Demos</NuxtLink>
+            <!-- <NuxtLink to="/#demos">Demos</NuxtLink> -->
             <NuxtLink to="/#story">Story</NuxtLink>
             <div class="item" to="/">
                 Support
@@ -64,7 +64,6 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        /* gap: px; */
         font-size: 14px;
         font-weight: 500;
         display: flex;
@@ -74,6 +73,9 @@ header {
         border: 1px solid rgba(#b8b8bd, 0.8);
         padding: 0 20px 0 15px;
         box-shadow: 0 2px 15px rgba(black, 0.1);
+        > .icon img {
+            max-width: none;
+        }
         > a,
         > .item {
             text-decoration: none;
@@ -83,6 +85,10 @@ header {
             border-radius: 8px;
             cursor: pointer;
             position: relative;
+
+            @media (max-width: $mq-size) {
+                padding: 3px 8px;
+            }
 
             &:hover {
                 background: #eee;
