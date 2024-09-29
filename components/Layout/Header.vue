@@ -6,7 +6,7 @@
             </NuxtLink>
             <NuxtLink to="/">Home</NuxtLink>
             <div class="item">
-                Lean
+                Learn
                 <div class="popover">
                     <NuxtLink to="/learn/keyboard-controls">
                         <div class="icon"><IconTinyKeyboard /></div>
