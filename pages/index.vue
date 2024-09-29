@@ -10,7 +10,7 @@
             <Cta label="Install extension" />
             <div class="flex-fill"></div>
             <div class="preview">
-                <div class="arrow"><IconArrowDown /></div>
+                <div class="arrow"><img src="/assets/images/arrow.png" /></div>
                 <Controller />
             </div>
         </div>
@@ -134,11 +134,12 @@ useHead({
     width: 1200px;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3));
     .arrow {
-        transform: rotateY(45deg);
-        animation: rotateAnimation 1s linear infinite;
         position: absolute;
         top: -40px;
-        left: 10px;
+        left: 6px;
+        img {
+            width: 40px;
+        }
     }
 }
 
