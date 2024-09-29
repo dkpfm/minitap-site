@@ -148,7 +148,7 @@ useHead({
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 150px 0 150px;
+    padding: 0px 0 150px;
 
     .item {
         > .icon {
