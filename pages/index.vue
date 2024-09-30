@@ -254,15 +254,15 @@ useHead({
 .bg-shade {
     width: 100%;
     background: #e5e5e9;
-    padding: 150px 0;
+    /* padding: 150px 0; */
     /* margin: 150px 0; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    @media (max-width: $mq-size) {
-        padding: 100px 0;
-    }
+    /* @media (max-width: $mq-size) { */
+    /* padding: 100px 0; */
+    /* } */
 }
 .bg-blue {
     width: 100%;

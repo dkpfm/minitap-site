@@ -31,10 +31,27 @@
 <script setup>
 const videoEl = ref();
 const playing = ref(false);
+import { useRafFn } from "@vueuse/core";
+
+const { pause, resume } = useRafFn(() => {
+    console.log(videoEl.value.currentTime);
+    if (videoEl.value.currentTime >= videoEl.value.duration) {
+        videoEl.valuecurrentTime = 0;
+        playing.value = false;
+    }
+});
+pause();
 
 function playVideo() {
-    videoEl.value?.play();
-    playing.value = true;
+    if (!playing.value) {
+        videoEl.value?.play();
+        playing.value = true;
+        resume();
+    } else {
+        videoEl.value?.pause();
+        videoEl.valuecurrentTime = 0;
+        playing.value = false;
+    }
 }
 </script>
 
@@ -49,6 +66,9 @@ function playVideo() {
     justify-content: center;
     flex-direction: column;
     transition: background-color 1s linear;
+    @media (max-width: $mq-size) {
+        padding: 100px 0;
+    }
 }
 .video-block {
     width: 1100px;
