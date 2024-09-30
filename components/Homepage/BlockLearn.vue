@@ -1,8 +1,12 @@
 <template>
-    <div class="wrapper">
-        <div class="video-block">
-            <img src="/assets/images/video-thumb.jpg" />
-            <div class="video-block-title">
+    <div
+        class="wrapper"
+        :style="`background: ${playing ? '#B8B8C2' : 'transparent'}`"
+    >
+        <div class="video-block" @click="playVideo">
+            <!-- <img src="/assets/images/video-thumb.jpg" /> -->
+            <video ref="videoEl" src="/assets/videos/intro-mockup-4k.mp4" />
+            <div class="video-block-title" v-if="!playing">
                 <h3>MiniTAP in 30sec.</h3>
                 <Cta label="Watch intro video" />
             </div>
@@ -24,7 +28,28 @@
     </div>
 </template>
 
+<script setup>
+const videoEl = ref();
+const playing = ref(false);
+
+function playVideo() {
+    videoEl.value?.play();
+    playing.value = true;
+}
+</script>
+
 <style lang="scss" scoped>
+.wrapper {
+    width: 100%;
+    background: transparent;
+    padding: 150px 0;
+    /* margin: 150px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: background-color 1s linear;
+}
 .video-block {
     width: 1100px;
     /* height: 660px; */
@@ -44,10 +69,13 @@
         height: auto;
         border-radius: 20px;
     }
-    img {
+    img,
+    video {
         position: absolute;
         max-width: 100%;
         max-height: 100%;
+        width: 100%;
+        height: 100%;
     }
     .video-block-title {
         position: relative;
