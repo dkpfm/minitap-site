@@ -12,7 +12,7 @@
             <video ref="videoEl" src="/assets/videos/intro-mockup-v3-4k.mp4" />
             <div class="video-block-title" v-if="!playing">
                 <h3 class="title">MiniTAP in 30sec.</h3>
-                <Cta label="Watch intro video" />
+                <Cta label="Watch intro video"><IconPlay /></Cta>
             </div>
         </div>
         <nav>
