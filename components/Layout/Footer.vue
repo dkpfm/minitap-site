@@ -46,7 +46,7 @@ footer {
     background: black;
     margin-top: 50px;
 
-    @media (max-width: 1200px) {
+    @media (max-width: $mq-size) {
         text-align: center;
         font-size: 10px;
         flex-direction: column;
@@ -55,7 +55,7 @@ footer {
     .icon {
         position: relative;
         top: -7px;
-        @media (max-width: 1200px) {
+        @media (max-width: $mq-size) {
             display: none;
         }
     }
@@ -67,7 +67,7 @@ footer {
         strong {
             color: rgba(white, 1);
         }
-        @media (max-width: 1200px) {
+        @media (max-width: $mq-size) {
             flex: 1;
             width: 100%;
             justify-content: center;
@@ -83,7 +83,7 @@ footer {
     }
 }
 .preview-filler {
-    margin-top: 100px;
+    margin-top: 50px;
     position: relative;
     width: 100%;
     display: flex;
@@ -91,8 +91,12 @@ footer {
     justify-content: center;
     flex-direction: column;
     @media (max-width: 1200px) {
-        margin: 0px 0 20px;
+        max-width: 700px;
+        margin: 0px 0 100px;
         height: 200px;
+    }
+    @media (max-width: $mq-size) {
+        margin: 0px 0 20px;
     }
 }
 .preview {

@@ -33,6 +33,7 @@
         color: white;
         margin-bottom: 20px;
         line-height: 1em;
+
         @media (max-width: $mq-size) {
             font-size: 28px;
         }
@@ -48,6 +49,11 @@
         line-height: 1em;
         padding: 0 20px 15px;
         border-radius: 25px;
+        @media (max-width: 1200px) {
+            font-size: 64px;
+            padding: 0 20px 10px;
+            border-radius: 20px;
+        }
         @media (max-width: $mq-size) {
             font-size: 38px;
             letter-spacing: -1px;
