@@ -20,14 +20,22 @@
     flex-direction: column;
     text-align: center;
     /* min-height: 100vh; */
-    padding: 100px 0 80px;
+    padding: 120px 0 100px;
     max-width: 100%;
+
+    @media (max-width: $mq-size) {
+        padding: 0;
+    }
 
     .pretitle {
         font-size: 52px;
         font-weight: 700;
         color: white;
         margin-bottom: 20px;
+        line-height: 1em;
+        @media (max-width: $mq-size) {
+            font-size: 28px;
+        }
     }
 
     > h3 {
@@ -35,20 +43,18 @@
         font-weight: 700;
         margin: 0 0 40px;
         letter-spacing: -2px;
-        line-height: 1em;
-        /* small {
-            font-size: 50px;
-            line-height: 0.7em;
-            font-weight: 500;
-            opacity: 0.5;
-        } */
-
-        letter-spacing: -2px;
         color: white;
         background: black;
         line-height: 1em;
         padding: 0 20px 15px;
         border-radius: 25px;
+        @media (max-width: $mq-size) {
+            font-size: 38px;
+            letter-spacing: -1px;
+            border-radius: 15px;
+            padding: 8px 10px 12px;
+            margin: 0 0 20px;
+        }
     }
     > p {
         font-size: 32px;

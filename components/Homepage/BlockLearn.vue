@@ -3,11 +3,15 @@
         class="wrapper"
         :style="`background: ${playing ? '#B8B8C2' : 'transparent'}`"
     >
+        <h3 class="title">MiniTAP in 30sec.</h3>
         <div class="video-block" @click="playVideo">
-            <!-- <img src="/assets/images/video-thumb.jpg" v-if="!playing" /> -->
+            <img
+                src="/assets/images/video-thumb.jpg"
+                v-if="!playing || !ready"
+            />
             <video ref="videoEl" src="/assets/videos/intro-mockup-v3-4k.mp4" />
             <div class="video-block-title" v-if="!playing">
-                <h3>MiniTAP in 30sec.</h3>
+                <h3 class="title">MiniTAP in 30sec.</h3>
                 <Cta label="Watch intro video" />
             </div>
         </div>
@@ -17,13 +21,14 @@
                 label="Keyboard controls"
                 size="small"
                 type="inverted"
-                ><IconTinyKeyboard /> </Cta
+                ><IconTinyKeyboard /></Cta
             ><Cta
                 to="/learn/connection-api"
                 label="How to connect"
                 size="small"
                 type="inverted"
-            />
+                ><IconTinyConnection
+            /></Cta>
         </nav>
     </div>
 </template>
@@ -31,10 +36,11 @@
 <script setup>
 const videoEl = ref();
 const playing = ref(false);
+const ready = ref(false);
 import { useRafFn } from "@vueuse/core";
 
 const { pause, resume } = useRafFn(() => {
-    console.log(videoEl.value.currentTime);
+    ready.value = obj.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA;
     if (videoEl.value.currentTime >= videoEl.value.duration) {
         videoEl.value.currentTime = 0;
         videoEl.value.pause();
@@ -45,8 +51,8 @@ pause();
 
 function playVideo() {
     if (!playing.value) {
-        videoEl.value?.play();
         playing.value = true;
+        videoEl.value?.play();
         resume();
     } else {
         videoEl.value?.pause();
@@ -70,6 +76,20 @@ function playVideo() {
     transition: background-color 1s linear;
     @media (max-width: $mq-size) {
         padding: 100px 0;
+    }
+}
+.title {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    letter-spacing: -1.5px;
+    display: none;
+    text-align: center;
+    @media (max-width: $mq-size) {
+        padding-bottom: 40px;
+        font-size: 48px;
+        line-height: 1;
+        display: block;
     }
 }
 .video-block {
@@ -110,13 +130,8 @@ function playVideo() {
         @media (max-width: $mq-size) {
             padding-bottom: 40px;
         }
-
-        > h3 {
-            font-size: 80px;
-            font-weight: 700;
-            margin: 0;
-            letter-spacing: -1.5px;
-
+        .title {
+            display: block;
             @media (max-width: $mq-size) {
                 display: none;
             }

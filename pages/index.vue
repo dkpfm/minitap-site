@@ -9,7 +9,12 @@
                 <strong>A fun sequencer for the web</strong><br />that runs as a
                 browser extension.
             </p>
-            <Cta label="Install extension" />
+            <Cta
+                label="Install extension"
+                to="https://chromewebstore.google.com/detail/minitap/dmnepbgemmjegkkeddgmaoagmhakeiml"
+                target="blank"
+                ><IconDown
+            /></Cta>
             <div class="flex-fill"></div>
 
             <div class="preview-filler">
@@ -30,8 +35,7 @@
                     <h3>8 channels.<br />3 modes.</h3>
                     <p>
                         Each channel can be set to trigger on the beat
-                        (sequencer), on keystroke, or when audio tressholds are
-                        hit.
+                        (sequencer), on keystroke, or randomly.
                     </p>
                 </div>
                 <div class="item">
@@ -40,7 +44,8 @@
                     </div>
                     <h3>Works with<br />your keyboard.</h3>
                     <p>
-                        The key bindings are designed for expressive live usage.
+                        The key bindings are designed for expressive usage in
+                        live settings. No mouse needed.
                     </p>
                 </div>
                 <div class="item">
@@ -49,9 +54,8 @@
                     </div>
                     <h3>Send events to current tab.</h3>
                     <p>
-                        Each channel can be set to trigger on the beat
-                        (sequencer), on keystroke, or when audio tressholds are
-                        hit.
+                        MiniTAP posts messages to the window. What you do with
+                        them, iss up to you.
                     </p>
                 </div>
                 <div class="item">
@@ -60,9 +64,8 @@
                     </div>
                     <h3>Advanced<br />tempo controls.</h3>
                     <p>
-                        Each channel can be set to trigger on the beat
-                        (sequencer), on keystroke, or when audio tressholds are
-                        hit.
+                        Tap following the tempo to guess the BPM. Use the arrow
+                        keys for fine tuning.
                     </p>
                 </div>
             </div>
@@ -86,19 +89,6 @@
 <script setup>
 import Demo from "./extension/demo/src/App.vue";
 import Controller from "./extension/src/components/Controller.vue";
-useHead({
-    title: "MiniTAP – Web Sequencer",
-    meta: [
-        {
-            name: "description",
-            content:
-                "A fun sequencer for The Web that runs as a browser extension.",
-        },
-    ],
-    bodyAttrs: {
-        class: "test",
-    },
-});
 </script>
 
 <style lang="scss">

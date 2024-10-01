@@ -30,14 +30,14 @@ import Controller from "./extension/src/components/Controller.vue";
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    /* min-height: 100vh; */
-    padding: 0px 0 0px;
+    padding: 0 0 0;
     width: 100%;
     background: black;
 }
 footer {
     display: flex;
-    min-width: 800px;
+    width: 800px;
+    max-width: 100%;
     justify-content: space-between;
     border-top: 1.5px solid rgba(white, 0.1);
     padding: 40px 20px;
@@ -45,21 +45,37 @@ footer {
     letter-spacing: -0.2px;
     background: black;
     margin-top: 50px;
+
+    @media (max-width: 1200px) {
+        text-align: center;
+        font-size: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
     .icon {
         position: relative;
         top: -7px;
+        @media (max-width: 1200px) {
+            display: none;
+        }
     }
 
     > div {
         display: flex;
         gap: 15px;
-        color: rgba(white, 0.8);
+        color: rgba(white, 0.5);
         strong {
             color: rgba(white, 1);
         }
+        @media (max-width: 1200px) {
+            flex: 1;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+        }
     }
     a {
-        color: rgba(white, 0.8);
+        color: rgba(white, 0.5);
         text-decoration: none;
         &:hover {
             color: rgba(white, 1);
@@ -75,7 +91,8 @@ footer {
     justify-content: center;
     flex-direction: column;
     @media (max-width: 1200px) {
-        height: 250px;
+        margin: 0px 0 20px;
+        height: 200px;
     }
 }
 .preview {
@@ -84,14 +101,9 @@ footer {
 
     @media (max-width: 1200px) {
         position: absolute;
-        left: 20px;
+        right: 20px;
+        left: auto;
         /* top: 100px; */
     }
-
-    /* @media (max-width: $mq-size) {
-        padding-top: 60px;
-        left: -20px;
-        top: 0px;
-    } */
 }
 </style>

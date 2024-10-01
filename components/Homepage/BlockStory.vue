@@ -16,13 +16,17 @@
             <div class="item">
                 I ended up going from idea to launch in one week!
             </div>
-            <div class="actions">
-                <Cta label="Follow on X" size="small" />
-                <Cta label="Watch video" size="small" />
-            </div>
         </div>
         <div class="avatar">
             <img src="/assets/images/avatar.png" />
+            <div class="name">Xavier (Jack)</div>
+            <div class="username">@kmkota0</div>
+            <!-- <Cta label="Watch video" size="small" /> -->
+            <div class="actions">
+                <Cta label="Follow on X" size="small">
+                    <IconX />
+                </Cta>
+            </div>
         </div>
     </div>
 </template>
@@ -45,6 +49,8 @@
         padding: 0px;
         border-radius: 40px;
         background: transparent;
+        justify-content: center;
+        align-items: center;
     }
 
     .messages {
@@ -108,6 +114,26 @@
     .avatar {
         /* width: fit-content; */
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 10px; */
+
+        .name {
+            margin: 20px 0 0;
+            font-weight: 800;
+            font-size: 24px;
+            letter-spacing: -0.5px;
+        }
+        .username {
+            /* margin: 20px 0 0; */
+            /* font-weight: 800; */
+            font-size: 18px;
+            font-weight: 500;
+            opacity: 0.5;
+            margin: 0 0 20px;
+            /* letter-spacing: -0.5px; */
+        }
+
         @media (max-width: $mq-size) {
             margin: 20px auto;
         }
