@@ -12,13 +12,24 @@ export default defineNuxtConfig({
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
       ],
-      script: [
-        {
-          src: "https://plausible.io/js/script.js",
-          "data-domain": "minitap.io",
-          defer: true,
-        },
-      ],
+      script: [],
+    },
+  },
+  $production: {
+    app: {
+      head: {
+        link: [{ rel: "icon", type: "image/png", href: "/icon-512.svg" }],
+        meta: [
+          { name: "viewport", content: "width=device-width, initial-scale=1" },
+        ],
+        script: [
+          {
+            src: "https://plausible.io/js/script.js",
+            "data-domain": "minitap.io",
+            defer: true,
+          },
+        ],
+      },
     },
   },
   vue: {
