@@ -19,7 +19,7 @@
 
             <div class="preview-filler">
                 <div class="preview">
-                    <div class="arrow">
+                    <div class="arrow" v-if="!isPlaying">
                         <img src="/assets/images/arrow.png" />
                     </div>
                     <Controller />
@@ -89,6 +89,9 @@
 <script setup>
 import Demo from "./extension/demo/src/App.vue";
 import Controller from "./extension/src/components/Controller.vue";
+
+const controllerClock = inject("controllerClock");
+const isPlaying = computed(() => controllerClock.isPlaying.value);
 </script>
 
 <style lang="scss">
