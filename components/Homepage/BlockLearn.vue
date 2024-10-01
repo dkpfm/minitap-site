@@ -4,8 +4,8 @@
         :style="`background: ${playing ? '#B8B8C2' : 'transparent'}`"
     >
         <div class="video-block" @click="playVideo">
-            <!-- <img src="/assets/images/video-thumb.jpg" /> -->
-            <video ref="videoEl" src="/assets/videos/intro-mockup-4k.mp4" />
+            <!-- <img src="/assets/images/video-thumb.jpg" v-if="!playing" /> -->
+            <video ref="videoEl" src="/assets/videos/intro-mockup-v3-4k.mp4" />
             <div class="video-block-title" v-if="!playing">
                 <h3>MiniTAP in 30sec.</h3>
                 <Cta label="Watch intro video" />
@@ -36,7 +36,8 @@ import { useRafFn } from "@vueuse/core";
 const { pause, resume } = useRafFn(() => {
     console.log(videoEl.value.currentTime);
     if (videoEl.value.currentTime >= videoEl.value.duration) {
-        videoEl.valuecurrentTime = 0;
+        videoEl.value.currentTime = 0;
+        videoEl.value.pause();
         playing.value = false;
     }
 });
@@ -49,8 +50,9 @@ function playVideo() {
         resume();
     } else {
         videoEl.value?.pause();
-        videoEl.valuecurrentTime = 0;
+        videoEl.value.currentTime = 0;
         playing.value = false;
+        pause();
     }
 }
 </script>
