@@ -23,7 +23,12 @@
             <div class="username">@kmkota0</div>
             <!-- <Cta label="Watch video" size="small" /> -->
             <div class="actions">
-                <Cta label="Follow on X" size="small">
+                <Cta
+                    to="https://x.com/KMkota0"
+                    target="_blank"
+                    label="Follow on X"
+                    size="small"
+                >
                     <IconX />
                 </Cta>
             </div>
