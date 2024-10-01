@@ -55,7 +55,7 @@
                     <h3>Send events to current tab.</h3>
                     <p>
                         MiniTAP posts messages to the window. What you do with
-                        them, iss up to you.
+                        them is up to you.
                     </p>
                 </div>
                 <div class="item">
