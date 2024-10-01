@@ -1,5 +1,5 @@
 <template>
-    <div class="learn">
+    <div class="kb">
         <h1>Keyboard controls</h1>
         <img src="/assets/images/keyboard-channels.svg" />
         <img src="/assets/images/keyboard-modes.svg" />
@@ -8,7 +8,7 @@
 
 <script setup>
 useHead({
-    title: "MiniTAP – Web Sequencer",
+    title: "MiniTAP – Keyboard controls",
     meta: [
         {
             name: "description",
@@ -23,8 +23,8 @@ useHead({
 </script>
 
 <style lang="scss">
-.learn {
-    padding-top: 200px;
+.kb {
+    padding-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;

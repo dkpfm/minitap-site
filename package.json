@@ -10,8 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@highlightjs/vue-plugin": "^2.1.0",
     "@tresjs/core": "^4.2.10",
     "gsap": "^3.12.5",
+    "highlight.js": "^11.10.0",
     "matter-js": "^0.20.0",
     "nuxt": "^3.13.0",
     "scss": "^0.2.4",
