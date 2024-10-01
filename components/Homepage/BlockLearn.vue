@@ -9,7 +9,14 @@
                 src="/assets/images/video-thumb.jpg"
                 v-if="!playing || !ready"
             />
-            <video ref="videoEl" src="/assets/videos/intro-mockup-v3-4k.mp4" />
+            <video
+                ref="videoEl"
+                :src="
+                    windowWidth < 800
+                        ? '/videos/intro-mockup-v3-720p.mp4'
+                        : '/videos/intro-mockup-v3-4k.mp4'
+                "
+            />
             <div class="video-block-title" v-if="!playing">
                 <h3 class="title">MiniTAP in 30sec.</h3>
                 <Cta label="Watch intro video"><IconPlay /></Cta>
@@ -40,7 +47,8 @@ const ready = ref(false);
 import { useRafFn } from "@vueuse/core";
 
 const { pause, resume } = useRafFn(() => {
-    ready.value = obj.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA;
+    ready.value =
+        videoEl.value.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA;
     if (videoEl.value.currentTime >= videoEl.value.duration) {
         videoEl.value.currentTime = 0;
         videoEl.value.pause();
@@ -61,6 +69,9 @@ function playVideo() {
         pause();
     }
 }
+
+import { useWindowSize } from "@vueuse/core";
+const { width: windowWidth } = useWindowSize();
 </script>
 
 <style lang="scss" scoped>
