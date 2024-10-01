@@ -17,13 +17,10 @@ useHead({
                 "A fun sequencer for The Web that runs as a browser extension.",
         },
     ],
-    bodyAttrs: {
-        class: "test",
-    },
 });
 useSeoMeta({
     title: "MiniTAP – Web Sequencer",
-    ogTitle: "My Amazing Site",
+    ogTitle: "MiniTAP – Web Sequencer",
     description:
         "A fun sequencer for The Web that runs as a browser extension.",
     ogDescription:
