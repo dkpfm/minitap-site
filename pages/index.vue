@@ -1,7 +1,7 @@
 <template>
-    <Demo />
+    <Demo :active="heroVisible" />
     <div class="homepage">
-        <div class="hero">
+        <div class="hero" ref="heroEl">
             <div class="logo">
                 <HomepageDisplayLogo />
             </div>
@@ -89,6 +89,10 @@
 <script setup>
 import Demo from "./extension/demo/src/App.vue";
 import Controller from "./extension/src/components/Controller.vue";
+import { useElementVisibility } from "@vueuse/core";
+
+const heroEl = ref(null);
+const heroVisible = useElementVisibility(heroEl);
 
 const controllerClock = inject("controllerClock");
 const isPlaying = computed(() => controllerClock.isPlaying.value);
