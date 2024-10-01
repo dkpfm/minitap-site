@@ -25,7 +25,7 @@ useSeoMeta({
         "A fun sequencer for The Web that runs as a browser extension.",
     ogDescription:
         "A fun sequencer for The Web that runs as a browser extension.",
-    ogImage: "https://mintap.io/og-image.jpg",
+    ogImage: "https://minitap.io/og-image.jpg",
     twitterCard: "summary_large_image",
 });
 </script>
