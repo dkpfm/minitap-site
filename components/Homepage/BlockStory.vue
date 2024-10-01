@@ -10,11 +10,11 @@
             </div>
             <div class="item">
                 It ended up taking longer than expected. Developemnt of the
-                extension took 3 days. Design, documentation and this landing
-                took a couple days more.
+                extension took 3 days. Design, documentation and promo stuff
+                took a few days more.
             </div>
             <div class="item">
-                I ended up going from idea to launch in one week! 🙃
+                I ended up going from idea to launch in one week!
             </div>
             <div class="actions">
                 <Cta label="Follow on X" size="small" />

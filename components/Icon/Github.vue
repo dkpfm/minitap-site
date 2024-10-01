@@ -6,6 +6,7 @@
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
+        :style="{ scale }"
     >
         <g
             id="Page-2"
@@ -31,3 +32,6 @@
         </g>
     </svg>
 </template>
+<script setup>
+defineProps(["scale"]);
+</script>

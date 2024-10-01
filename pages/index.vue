@@ -11,15 +11,22 @@
             </p>
             <Cta label="Install extension" />
             <div class="flex-fill"></div>
-            <div class="preview">
-                <div class="arrow"><img src="/assets/images/arrow.png" /></div>
-                <Controller />
+
+            <div class="preview-filler">
+                <div class="preview">
+                    <div class="arrow">
+                        <img src="/assets/images/arrow.png" />
+                    </div>
+                    <Controller />
+                </div>
             </div>
         </div>
         <div class="bg-features">
             <div class="features">
                 <div class="item">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <img src="/assets/images/icon-channels.png" />
+                    </div>
                     <h3>8 channels.<br />3 modes.</h3>
                     <p>
                         Each channel can be set to trigger on the beat
@@ -28,7 +35,18 @@
                     </p>
                 </div>
                 <div class="item">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <img src="/assets/images/icon-keyboard.png" />
+                    </div>
+                    <h3>Works with<br />your keyboard.</h3>
+                    <p>
+                        The key bindings are designed for expressive live usage.
+                    </p>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="/assets/images/icon-code.png" />
+                    </div>
                     <h3>Send events to current tab.</h3>
                     <p>
                         Each channel can be set to trigger on the beat
@@ -37,16 +55,9 @@
                     </p>
                 </div>
                 <div class="item">
-                    <div class="icon"></div>
-                    <h3>Works with<br />your keyboard.</h3>
-                    <p>
-                        Each channel can be set to trigger on the beat
-                        (sequencer), on keystroke, or when audio tressholds are
-                        hit.
-                    </p>
-                </div>
-                <div class="item">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <img src="/assets/images/icon-tempo.png" />
+                    </div>
                     <h3>Advanced<br />tempo controls.</h3>
                     <p>
                         Each channel can be set to trigger on the beat
@@ -67,8 +78,8 @@
         </div>
         <div class="bg-blue">
             <HomepageBlockOpenSource />
-            <LayoutFooter />
         </div>
+        <LayoutFooter />
     </div>
 </template>
 
@@ -158,20 +169,38 @@ useHead({
         padding: 0;
     }
 }
+.preview-filler {
+    position: relative;
+    width: 100%;
+    @media (max-width: 1200px) {
+        height: 250px;
+    }
+}
 .preview {
     width: 1200px;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3));
 
+    @media (max-width: 1200px) {
+        position: absolute;
+        left: 20px;
+        top: 100px;
+    }
+
     @media (max-width: $mq-size) {
         padding-top: 60px;
+        left: -20px;
+        top: 0px;
     }
 
     .arrow {
         position: absolute;
-        top: -40px;
+        top: -50px;
         left: 6px;
         img {
             width: 40px;
+        }
+        @media (max-width: $mq-size) {
+            top: 10px;
         }
     }
 }
@@ -179,25 +208,26 @@ useHead({
 .features {
     max-width: 1200px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     gap: 50px;
     padding: 0px 40px 150px;
 
     @media (max-width: $mq-size) {
         flex-wrap: wrap;
-        padding: 10px 20px 100px;
+        padding: 10px 35px 100px;
     }
 
     .item {
+        flex: 1 1 0px;
         @media (max-width: $mq-size) {
-            width: calc(50% - 30px);
+            min-width: calc(50% - 30px);
         }
         > .icon {
             width: 150px;
             height: 150px;
-            border-radius: 50px;
-            background-image: linear-gradient(180deg, #3c3c42 0%, #000000 100%);
+            /* border-radius: 50px; */
+            /* background-image: linear-gradient(180deg, #3c3c42 0%, #000000 100%); */
 
             @media (max-width: $mq-size) {
                 width: 100px;
@@ -212,7 +242,7 @@ useHead({
             margin: 1.5em 0 1em;
 
             @media (max-width: $mq-size) {
-                font-size: 18px;
+                font-size: 22px;
                 letter-spacing: -1px;
                 margin: 1em 0 0.5em;
             }
@@ -223,6 +253,7 @@ useHead({
             opacity: 0.7;
             font-weight: 600;
             letter-spacing: -0.5px;
+            text-wrap: pretty;
             @media (max-width: $mq-size) {
                 font-size: 14px;
                 letter-spacing: -0.25px;

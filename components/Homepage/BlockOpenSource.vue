@@ -1,23 +1,16 @@
 <template>
-    <div class="wrapper">
-        <h3 id="demos">
-            <small>One more thing...</small><br />It's Open Source!
-        </h3>
+    <div class="wrapper" id="demos">
+        <div class="pretitle">One more thing...</div>
+        <h3>It's Open Source!</h3>
         <Cta
             label="View on Github"
             type="inverted"
             to="https://github.com/dkpfm/minitap"
-        />
-        <div class="flex-fill"></div>
-        <div class="preview">
-            <Controller />
-        </div>
+            target="_blank"
+            ><IconGithub :scale="1.5"
+        /></Cta>
     </div>
 </template>
-
-<script setup>
-import Controller from "./extension/src/components/Controller.vue";
-</script>
 
 <style lang="scss" scoped>
 .wrapper {
@@ -28,6 +21,14 @@ import Controller from "./extension/src/components/Controller.vue";
     text-align: center;
     /* min-height: 100vh; */
     padding: 100px 0 80px;
+    max-width: 100%;
+
+    .pretitle {
+        font-size: 52px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 20px;
+    }
 
     > h3 {
         font-size: 120px;
@@ -35,12 +36,19 @@ import Controller from "./extension/src/components/Controller.vue";
         margin: 0 0 40px;
         letter-spacing: -2px;
         line-height: 1em;
-        small {
+        /* small {
             font-size: 50px;
             line-height: 0.7em;
             font-weight: 500;
             opacity: 0.5;
-        }
+        } */
+
+        letter-spacing: -2px;
+        color: white;
+        background: black;
+        line-height: 1em;
+        padding: 0 20px 15px;
+        border-radius: 25px;
     }
     > p {
         font-size: 32px;
@@ -52,10 +60,5 @@ import Controller from "./extension/src/components/Controller.vue";
             color: rgba(black, 1);
         }
     }
-}
-.preview {
-    margin-top: 100px;
-    width: 1200px;
-    /* filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3)); */
 }
 </style>

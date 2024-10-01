@@ -16,13 +16,13 @@
                 to="/learn/keyboard-controls"
                 label="Keyboard controls"
                 size="small"
-                type="faded"
-            />
-            <Cta
+                type="inverted"
+                ><IconTinyKeyboard /> </Cta
+            ><Cta
                 to="/learn/connection-api"
                 label="How to connect"
                 size="small"
-                type="faded"
+                type="inverted"
             />
         </nav>
     </div>
