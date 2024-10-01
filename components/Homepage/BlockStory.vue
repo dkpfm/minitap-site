@@ -9,7 +9,7 @@
                 So I challenged myself to code a Chrome Extension in 2 days.
             </div>
             <div class="item">
-                It ended up taking longer than expected. Developemnt of the
+                It ended up taking longer than expected. Development of the
                 extension took 3 days. Design, documentation and promo stuff
                 took a few days more.
             </div>
