@@ -1,6 +1,6 @@
 <template>
     <div class="learn">
-        <h1>Connection API</h1>
+        <h1>API</h1>
 
         <h2>
             <div class="circle">1</div>

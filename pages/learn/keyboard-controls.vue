@@ -1,8 +1,9 @@
 <template>
     <div class="kb">
-        <h1>Keyboard controls</h1>
-        <img src="/assets/images/keyboard-channels.svg" />
-        <img src="/assets/images/keyboard-modes.svg" />
+        <h1>Controls</h1>
+        <img src="/assets/images/keyboard-channels.png" />
+        <img src="/assets/images/keyboard-modes.png" />
+        <img src="/assets/images/keyboard-clock.png" />
     </div>
 </template>
 
@@ -24,22 +25,31 @@ useHead({
 
 <style lang="scss">
 .kb {
-    padding-top: 150px;
+    padding: 200px 20px 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    max-width: 100vw;
+
+    @media (max-width: $mq-size) {
+        padding-top: 150px;
+    }
     > h1 {
         font-size: 120px;
         font-weight: 700;
-        margin: 0;
+        margin: 0 0 0.5em;
         letter-spacing: -2px;
         line-height: 1em;
+        @media (max-width: $mq-size) {
+            font-size: 50px;
+            letter-spacing: -0.5px;
+        }
     }
     > img {
         max-width: 1000px;
-        margin: 100px 20px;
+        margin: 10px 20px;
         width: calc(100% - 40px);
     }
 }
