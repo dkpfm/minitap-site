@@ -11,10 +11,10 @@
                 <strong>MiniTAP</strong>
                 <div>Built by Xavier (Jack) for Desktop.fm B.V.</div>
             </div>
-            <div>
-                <NuxtLink to="/privacy">Privacy Policy</NuxtLink>
-                <NuxtLink to="/terms">Terms of Service</NuxtLink>
-            </div>
+            <!-- <div> -->
+            <!-- <NuxtLink to="/contact">Contact</NuxtLink> -->
+            <!-- <NuxtLink to="/terms">Terms of Service</NuxtLink> -->
+            <!-- </div> -->
         </footer>
     </div>
 </template>
@@ -38,7 +38,8 @@ footer {
     display: flex;
     width: 800px;
     max-width: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     border-top: 1.5px solid rgba(white, 0.1);
     padding: 40px 20px;
     font-size: 14px;
@@ -63,6 +64,7 @@ footer {
     > div {
         display: flex;
         gap: 15px;
+        justify-content: center;
         color: rgba(white, 0.5);
         strong {
             color: rgba(white, 1);
