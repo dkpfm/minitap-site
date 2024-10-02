@@ -87,6 +87,20 @@
 </template>
 
 <script setup>
+useHead({
+    title: "MiniTAP – Web sequencer",
+    meta: [
+        {
+            name: "description",
+            content:
+                "A fun sequencer for The Web that runs as a browser extension.",
+        },
+    ],
+    bodyAttrs: {
+        class: "test",
+    },
+});
+
 import Demo from "./extension/demo/src/App.vue";
 import Controller from "./extension/src/components/Controller.vue";
 import { useElementVisibility } from "@vueuse/core";
