@@ -39,7 +39,7 @@
 
 <script setup>
 useHead({
-    title: "MiniTAP – Connetion API",
+    title: "MiniTAP – Connection API",
     meta: [
         {
             name: "description",
