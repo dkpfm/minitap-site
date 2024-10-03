@@ -5,7 +5,13 @@
                 <img src="/assets/images/icon.svg" />
             </NuxtLink>
             <NuxtLink to="/">Home</NuxtLink>
-            <div class="item">
+            <div
+                :class="{ rootItem: true, item: true, clicked: learnClicked }"
+                @click="
+                    supportClicked = false;
+                    learnClicked = true;
+                "
+            >
                 Learn
                 <div class="popover">
                     <NuxtLink to="/learn/keyboard-controls">
@@ -20,7 +26,14 @@
             </div>
             <!-- <NuxtLink to="/#demos">Demos</NuxtLink> -->
             <NuxtLink to="/#story">Story</NuxtLink>
-            <div class="item" to="/">
+            <div
+                :class="{ rootItem: true, item: true, clicked: supportClicked }"
+                to="/"
+                @click="
+                    learnClicked = false;
+                    supportClicked = true;
+                "
+            >
                 Support
                 <div class="popover left">
                     <a href="https://x.com/KMkota0" target="_blank">
@@ -48,6 +61,21 @@
         </NuxtLink>
     </header>
 </template>
+
+<script setup>
+const learnClicked = ref(false);
+const supportClicked = ref(false);
+
+import { useEventListener } from "@vueuse/core";
+
+useEventListener(document, "mouseup", (evt) => {
+    if (event.target.classList.contains("rootItem")) return;
+    setTimeout(() => {
+        learnClicked.value = false;
+        supportClicked.value = false;
+    }, 0);
+});
+</script>
 
 <style lang="scss" scoped>
 header {
@@ -90,7 +118,20 @@ header {
                 padding: 3px 8px;
             }
 
-            &:hover {
+            /* &:hover {
+                background: #eee;
+                .popover {
+                    transform: scale(1);
+                    opacity: 1;
+                    visibility: visible;
+                    @media (max-width: $mq-size) {
+                        transform: scale(1);
+                        opacity: 0;
+                        visibility: hidden;
+                    }
+                }
+            } */
+            &.clicked {
                 background: #eee;
                 .popover {
                     transform: scale(1);
